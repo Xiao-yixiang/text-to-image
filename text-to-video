@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画龙点睛 - 文生视频展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2em;
+        }
+        .description {
+            text-align: center;
+            margin: 20px;
+            font-size: 1.2em;
+            color: #555;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        video {
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .keyframe-descriptions {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #666;
+        }
+        .keyframe {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 40px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>画龙点睛 - 文生视频展示</h1>
+
+    <div class="description">
+        <p>“画龙点睛”是中国古代流传下来的一个有趣的故事，传说画家张僧繇画龙时不画眼珠，担心龙会飞走，直到最后他点上眼睛，龙才跃然纸上。</p>
+        <p>在这个视频中，我们将通过五个关键帧展示“画龙点睛”的故事情节，感受艺术创作的神奇和生命力的激发。</p>
+    </div>
+
+    <div class="video-container">
+        <!-- 视频嵌入 -->
+        <video controls>
+            <source src="https://github.com/your-username/your-repo-name/raw/main/dragon-video.mp4" type="video/mp4">
+            你的浏览器不支持视频播放。
+        </video>
+    </div>
+
+    <div class="keyframe-descriptions">
+        <div class="keyframe">
+            <h3>关键帧 1: 画家准备作画</h3>
+            <p>在这张关键帧中，画家正在画布上勾勒出龙的轮廓，虽然龙的形象还不完全，但我们能感受到画家的专注和创作的氛围。</p>
+        </div>
+        <div class="keyframe">
+            <h3>关键帧 2: 龙的轮廓逐渐显现</h3>
+            <p>随着画家的笔触，龙的身体和尾巴逐渐成形，栩栩如生。此时，龙的神态已经开始展现，充满气势。</p>
+        </div>
+        <div class="keyframe">
+            <h3>关键帧 3: 画家开始点睛</h3>
+            <p>在这张关键帧中，画家正在为龙点睛。两只龙的眼珠尚未完成，画家的手即将落下最后一笔。</p>
+        </div>
+        <div class="keyframe">
+            <h3>关键帧 4: 眼珠闪烁光芒</h3>
+            <p>眼珠开始闪烁着光芒，神秘的力量涌动，龙的眼睛渐渐充满生气。此时，画中的龙仿佛拥有了灵魂。</p>
+        </div>
+        <div class="keyframe">
+            <h3>关键帧 5: 龙飞出画外</h3>
+            <p>最后，龙的眼珠完全成型，充满生命力。画中的龙仿佛随时要飞出画外，跃然纸上，展现出强大的动感和气势。</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 画龙点睛视频展示</p>
+        <p>制作：肖艺湘</p>
+    </footer>
+
+</body>
+</html>
